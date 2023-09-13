@@ -1,0 +1,16 @@
+url: 'https://theohenson.com'
+baseurl: 'cftb-web'
+title: 'Jekyllwind'
+
+plugins:
+  - jekyll-postcss
+
+postcss:
+  cache: false
+
+exclude:
+  - package.json
+  - postcss.config.js
+  - tailwind.config.js
+  - yarn.lock
+  - package-lock.json
