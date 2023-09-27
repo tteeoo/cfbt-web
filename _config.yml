@@ -1,5 +1,5 @@
 url: 'https://theohenson.com'
-baseurl: 'cftb-web'
+baseurl: 'cfbt-web'
 title: 'Jekyllwind'
 
 plugins:
