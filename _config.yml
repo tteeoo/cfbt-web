@@ -1,6 +1,6 @@
 url: 'https://theohenson.com'
-baseurl: 'cftb-web'
-title: 'Jekyllwind'
+baseurl: '/cfbt-web'
+title: 'Comets for Better Transit'
 
 plugins:
   - jekyll-postcss
