@@ -8,24 +8,40 @@
     <link rel="shortcut icon" type="image/svg" href="{{ "/assets/img/logo_square.svg" | relative_url }}" />
   </head>
   <body class="bg-gray-100 text-gray-800">
+
     <nav class="relative flex w-full flex-wrap items-center justify-between bg-black py-2 text-white shadow-lg lg:py-4">
       <div class="flex w-full flex-wrap items-center justify-between px-3">
+
         <div>
-          <a class="mx-4 flex items-center text-white hover:text-neutral-900 focus:text-neutral-900 lg:mb-0 lg:mt-0" href="#">
+          <a class="mx-4 flex items-center justify-start text-white hover:text-neutral-900 focus:text-neutral-900 lg:mb-0 lg:mt-0" href="#">
             <img
               class="mr-0"
               src="{{ "/assets/img/logo.svg" | relative_url }}"
               style="height: 50px"
               alt="CFBT Logo"
               loading="lazy" />
-            <i class="font-medium text-white">comets for better transit.</i>
+            <i class="hidden md:inline font-medium">comets for better transit</i>
+            <i class="inline md:hidden font-medium">cfbt</i>
           </a>
         </div>
-        <div class="flex items-center justify-center text-xl">
-          <a href="{{ "/index.html" | relative_url }}" class="p-4 hover:underline">Home</a>
-          <a href="{{ "/about.html" | relative_url }}" class="p-4 hover:underline">About</a>
-          <a href="{{ "/contact.html" | relative_url }}" class="p-4 pr-12 hover:underline">Contact</a>
+
+        <div id="menu" class="hidden fixed top-0 right-0 z-50 bg-black md:bg-transparent md:relative flex md:flex flex-col md:flex-row md:items-center justify-center text-xl">
+ 
+          <div class="md:hidden z-90 fixed top-8 right-6">
+            <a href="javascript:void(0)" class="text-right text-white text-4xl mr-6" onclick="toggleMenu()">&times;</a>
+          </div>
+
+          <a href="{{ "/index.html" | relative_url }}" class="p-4 pl-8 md:pl-4 hover:underline">Home</a>
+          <a href="{{ "/about.html" | relative_url }}" class="p-4 pl-8 md:pl-4 hover:underline">About</a>
+          <a href="{{ "/contact.html" | relative_url }}" class="p-4 pl-8 md:pl-4 md:mr-12 hover:underline">Contact</a>
         </div>
+
+        <div class="flex items-center md:hidden">
+          <button class="text-white text-4xl font-bold p-4 mr-6" onclick="toggleMenu()">
+            &#9776;
+          </button>
+        </div> 
+
       </div>
     </nav>
 
@@ -76,5 +92,15 @@
         </div>
       </div>
     </footer>
+    
+    <script>
+      var menu = document.getElementById('menu');
+      function toggleMenu() {
+        menu.classList.toggle('hidden');
+        menu.classList.toggle('w-full');
+        menu.classList.toggle('h-screen');
+      }
+    </script>
+
   </body>
 </html>
