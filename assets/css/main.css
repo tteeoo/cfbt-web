@@ -6,11 +6,21 @@
 @tailwind utilities;
 
 @layer components {
+
 	.header {
 		@apply text-2xl text-center my-4;
+	}
+
+	.subheader {
+		@apply text-xl text-center my-2;
 	}
 
 	.link {
 		@apply underline text-green-700;
 	}
+
+	p {
+		@apply my-4;
+	}
+
 }
