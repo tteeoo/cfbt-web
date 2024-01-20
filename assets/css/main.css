@@ -4,3 +4,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+	.header {
+		@apply text-2xl text-center my-4;
+	}
+
+	.link {
+		@apply underline text-green-700;
+	}
+}
