@@ -1,5 +1,5 @@
-url: 'https://theohenson.com'
-baseurl: '/cfbt-web'
+url: 'https://cometsfor.org'
+baseurl: '/'
 title: 'Comets for Better Transit'
 
 plugins:
