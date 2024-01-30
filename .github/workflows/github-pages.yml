@@ -28,7 +28,7 @@ jobs:
         uses: limjh16/jekyll-action-ts@v2
         with:
           enable_cache: true
-      - run: echo "cometsfor.org" > CNAME
+      - run: echo "cometsfor.org" > /home/runner/work/cfbt-web/cfbt-web/CNAME
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
