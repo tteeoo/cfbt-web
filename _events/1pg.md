@@ -1,6 +1,6 @@
 ---
 title: First Pizzageneral of the Semester
-day: Wednesday, Jan. 30
+day: Wednesday, Jan. 31
 location: 7pm in SCI 3.230
 ---
 
