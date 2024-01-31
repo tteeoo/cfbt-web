@@ -14,3 +14,6 @@ exclude:
   - tailwind.config.js
   - yarn.lock
   - package-lock.json
+
+collections:
+  - events
