@@ -8,7 +8,7 @@
 @layer components {
 
 	.header {
-		@apply text-2xl text-center my-4;
+		@apply text-3xl text-center my-4;
 	}
 
 	.subheader {
@@ -21,6 +21,14 @@
 
 	p {
 		@apply my-4 mb-6;
+	}
+
+	ul {
+		@apply m-4;
+	}
+
+	li {
+		@apply my-2;
 	}
 
 }
