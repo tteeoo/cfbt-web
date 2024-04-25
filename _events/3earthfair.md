@@ -1,5 +1,7 @@
 ---
 title: UTD Earth Fair
 day: Thu Apr 25th
-location: 11am in Visitor Center
+location: Starting 11am in Visitor Center
 ---
+
+Come visit us as we table at the UTD Earth Fair.
