@@ -8,11 +8,11 @@
 @layer components {
 
 	.header {
-		@apply text-3xl text-center my-4;
+		@apply text-3xl text-center mt-8 mb-4;
 	}
 
 	.subheader {
-		@apply text-xl text-center my-2;
+		@apply text-xl text-center mt-4 mb-2;
 	}
 
 	.link {
