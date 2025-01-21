@@ -1,2 +1,3 @@
-- Add UTD-UTSW shuttle (new info in email) and CORE shuttle info
+- Finish UTD-UTSW shuttle (links in email, UTD location. Include UTSW internal shuttle?) and CORE shuttle info
+- Add nav links to top of Transit Near Campus section
 - Add officer photos and info
